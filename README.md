@@ -25,4 +25,10 @@ a file called "tidy_data_means.txt" in the R working directory
 9.	The source frame containing all observations is scanned and all rows for the same subject/activity are used to calculate the mean in each column and written to the target data frame
 10.	The resulting target data frame is written to local disk as a text file with row names removed
 
+###How to use
+1.	Place the script run_analysis() (run_analysis.R file) in the R working directory.
+2.	Make sure there is no directory called 'UCI HAR Dataset' or 'tidy_data_set.txt' that could be overwritten
+3.	Make sure you have Internet connection
+4.	Open the script in R, source it and run it.
+
 
