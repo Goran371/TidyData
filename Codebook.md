@@ -1,84 +1,257 @@
 ## DATA DICTIONARY - Tidy Data project assignment in Getting and Cleaning Data
 
-tBodyAcc_mean__X
-tBodyAcc_mean__Y
-tBodyAcc_mean__Z
-tBodyAcc_std__X
-tBodyAcc_std__Y
-tBodyAcc_std__Z
-tGravityAcc_mean__X
-tGravityAcc_mean__Y
-tGravityAcc_mean__Z
-tGravityAcc_std__X
-tGravityAcc_std__Y
-tGravityAcc_std__Z
-tBodyAccJerk_mean__X
-tBodyAccJerk_mean__Y
-tBodyAccJerk_mean__Z
-tBodyAccJerk_std__X
-tBodyAccJerk_std__Y
-tBodyAccJerk_std__Z
-tBodyGyro_mean__X
-tBodyGyro_mean__Y
-tBodyGyro_mean__Z
-tBodyGyro_std__X
-tBodyGyro_std__Y
-tBodyGyro_std__Z
-tBodyGyroJerk_mean__X
-tBodyGyroJerk_mean__Y
-tBodyGyroJerk_mean__Z
-tBodyGyroJerk_std__X
-tBodyGyroJerk_std__Y
-tBodyGyroJerk_std__Z
-tBodyAccMag_mean_
-tBodyAccMag_std_
-tGravityAccMag_mean_
-tGravityAccMag_std_
-tBodyAccJerkMag_mean_
-tBodyAccJerkMag_std_
-tBodyGyroMag_mean_
-tBodyGyroMag_std_
-tBodyGyroJerkMag_mean_
-tBodyGyroJerkMag_std_
-fBodyAcc_mean__X
-fBodyAcc_mean__Y
-fBodyAcc_mean__Z
-fBodyAcc_std__X
-fBodyAcc_std__Y
-fBodyAcc_std__Z
-fBodyAcc_meanFreq__X
-fBodyAcc_meanFreq__Y
-fBodyAcc_meanFreq__Z
-fBodyAccJerk_mean__X
-fBodyAccJerk_mean__Y
-fBodyAccJerk_mean__Z
-fBodyAccJerk_std__X
-fBodyAccJerk_std__Y
-fBodyAccJerk_std__Z
-fBodyAccJerk_meanFreq__X
-fBodyAccJerk_meanFreq__Y
-fBodyAccJerk_meanFreq__Z
-fBodyGyro_mean__X
-fBodyGyro_mean__Y
-fBodyGyro_mean__Z
-fBodyGyro_std__X
-fBodyGyro_std__Y
-fBodyGyro_std__Z
-fBodyGyro_meanFreq__X
-fBodyGyro_meanFreq__Y
-fBodyGyro_meanFreq__Z
-fBodyAccMag_mean_
-fBodyAccMag_std_
-fBodyAccMag_meanFreq_
-fBodyBodyAccJerkMag_mean_
-fBodyBodyAccJerkMag_std_
-fBodyBodyAccJerkMag_meanFreq_
-fBodyBodyGyroMag_mean_
-fBodyBodyGyroMag_std_
-fBodyBodyGyroMag_meanFreq_
-fBodyBodyGyroJerkMag_mean_
-fBodyBodyGyroJerkMag_std_
-fBodyBodyGyroJerkMag_meanFreq_
-Activity
-Subject_ID
+tBodyAcc_mean__X		number normalized and bounded within [-1,1]
+         Total body acceleration mean value in x-axis direction
+
+tBodyAcc_mean__Y		number normalized and bounded within [-1,1]
+         Total body acceleration mean value in y-axis direction
+
+tBodyAcc_mean__Z		number normalized and bounded within [-1,1]
+         Total body acceleration mean value in z-axis direction
+
+tBodyAcc_std__X			number normalized and bounded within [-1,1]
+         Total body acceleration standard deviation value in x-axis direction
+
+tBodyAcc_std__Y			number normalized and bounded within [-1,1]
+         Total body acceleration standard deviation value in y-axis direction
+
+tBodyAcc_std__Z			number normalized and bounded within [-1,1]
+         Total body acceleration standard deviation value in z-axis direction
+
+tGravityAcc_mean__X		number normalized and bounded within [-1,1]
+         Total gravity acceleration mean value in x-axis direction
+
+tGravityAcc_mean__Y		number normalized and bounded within [-1,1]
+         Total gravity acceleration mean value in y-axis direction
+
+tGravityAcc_mean__Z		number normalized and bounded within [-1,1]
+         Total gravity acceleration mean value in z-axis direction
+
+tGravityAcc_std__X		number normalized and bounded within [-1,1]
+         Total gravity acceleration standard deviation value in x-axis direction
+
+tGravityAcc_std__Y		number normalized and bounded within [-1,1]
+         Total gravity acceleration standard deviation value in y-axis direction
+
+tGravityAcc_std__Z		number normalized and bounded within [-1,1]
+         Total gravity acceleration standard deviation value in y-axis direction
+
+tBodyAccJerk_mean__X		number normalized and bounded within [-1,1]
+         Total body jerk acceleration mean value in x-axis direction
+
+tBodyAccJerk_mean__Y		number normalized and bounded within [-1,1]
+         Total body jerk acceleration mean value in y-axis direction
+
+tBodyAccJerk_mean__Z		number normalized and bounded within [-1,1]
+         Total body jerk acceleration mean value in z-axis direction
+
+tBodyAccJerk_std__X		number normalized and bounded within [-1,1]
+         Total body jerk acceleration standard deviation value in x-axis direction
+
+tBodyAccJerk_std__Y		number normalized and bounded within [-1,1]
+         Total body jerk acceleration standard deviation value in y-axis direction
+
+tBodyAccJerk_std__Z		number normalized and bounded within [-1,1]
+         Total body jerk acceleration standard deviation value in z-axis direction
+
+tBodyGyro_mean__X		number normalized and bounded within [-1,1]
+         Total body angular velocity mean value in x-axis direction
+
+tBodyGyro_mean__Y		number normalized and bounded within [-1,1]
+         Total body angular velocity mean value in y-axis direction
+
+tBodyGyro_mean__Z		number normalized and bounded within [-1,1]
+         Total body angular velocity mean value in z-axis direction
+
+tBodyGyro_std__X		number normalized and bounded within [-1,1]
+         Total body angular velocity standard deviation value in x-axis direction
+
+tBodyGyro_std__Y		number normalized and bounded within [-1,1]
+         Total body angular velocity standard deviation value in y-axis direction
+
+tBodyGyro_std__Z		number normalized and bounded within [-1,1]
+         Total body angular velocity standard deviation value in z-axis direction
+
+tBodyGyroJerk_mean__X		number normalized and bounded within [-1,1]
+         Total body jerk angular velocity mean value in x-axis direction
+
+tBodyGyroJerk_mean__Y		number normalized and bounded within [-1,1]
+         Total body jerk angular velocity mean value in y-axis direction
+
+tBodyGyroJerk_mean__Z		number normalized and bounded within [-1,1]
+         Total body jerk angular velocity mean value in z-axis direction
+
+tBodyGyroJerk_std__X		number normalized and bounded within [-1,1]
+         Total body jerk angular velocity standard deviation value in x-axis direction
+
+tBodyGyroJerk_std__Y		number normalized and bounded within [-1,1]
+         Total body jerk angular velocity standard deviation value in y-axis direction
+
+tBodyGyroJerk_std__Z		number normalized and bounded within [-1,1]
+         Total body jerk angular velocity standard deviation value in z-axis direction
+
+tBodyAccMag_mean_		number normalized and bounded within [-1,1]
+	Total body acceleration magnitude mean using the Euclidian norm
+
+tBodyAccMag_std_		number normalized and bounded within [-1,1]
+	Total body acceleration magnitude standard deviation using the Euclidian norm
+
+tGravityAccMag_mean_		number normalized and bounded within [-1,1]
+	Total gravity acceleration magnitude mean using the Euclidian norm
+
+tGravityAccMag_std_		number normalized and bounded within [-1,1]
+	Total gravity acceleration magnitude mean using the Euclidian norm
+
+tBodyAccJerkMag_mean_		number normalized and bounded within [-1,1]
+	Total body jerk acceleration magnitude mean using the Euclidian norm
+
+tBodyAccJerkMag_std_		number normalized and bounded within [-1,1]
+	Total body jerk acceleration magnitude standard deviation using the Euclidian norm
+
+tBodyGyroMag_mean_		number normalized and bounded within [-1,1]
+	Total body angular velocity magnitude mean using the Euclidian norm
+
+tBodyGyroMag_std_		number normalized and bounded within [-1,1]
+	Total body angular velocity magnitude standard deviation using the Euclidian norm
+
+tBodyGyroJerkMag_mean_		number normalized and bounded within [-1,1]
+	Total body jerk angular velocity magnitude mean using the Euclidian norm
+
+tBodyGyroJerkMag_std_		number normalized and bounded within [-1,1]
+	Total body jerk angular velocity magnitude standard deviation using the Euclidian norm
+
+fBodyAcc_mean__X		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body acceleration mean in x-axis direction
+
+fBodyAcc_mean__Y		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body acceleration mean in y-axis direction
+
+fBodyAcc_mean__Z		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body acceleration mean in z-axis direction
+
+fBodyAcc_std__X			number normalized and bounded within [-1,1]
+	Frequency (after FFT) body acceleration standard deviation in x-axis direction
+
+fBodyAcc_std__Y			number normalized and bounded within [-1,1]
+	Frequency (after FFT) body acceleration standard deviation in y-axis direction
+
+fBodyAcc_std__Z			number normalized and bounded within [-1,1]
+	Frequency (after FFT) body acceleration standard deviation in z-axis direction
+
+fBodyAcc_meanFreq__X		number normalized and bounded within [-1,1]
+	Body acceleration mean frequency in x-axis direction
+
+fBodyAcc_meanFreq__Y		number normalized and bounded within [-1,1]
+	Body acceleration mean frequency in y-axis direction
+
+fBodyAcc_meanFreq__Z		number normalized and bounded within [-1,1]
+	Body acceleration mean frequency in z-axis direction
+
+fBodyAccJerk_mean__X		number normalized and bounded within [-1,1]
+	Body acceleration jerk mean frequency in x-axis direction
+
+fBodyAccJerk_mean__Y		number normalized and bounded within [-1,1]
+	Body acceleration jerk mean frequency in y-axis direction
+
+fBodyAccJerk_mean__Z		number normalized and bounded within [-1,1]
+	Body acceleration jerk mean frequency in z-axis direction
+
+fBodyAccJerk_std__X		number normalized and bounded within [-1,1]
+	Body acceleration jerk frequency standard deviation in x-axis direction
+
+fBodyAccJerk_std__Y		number normalized and bounded within [-1,1]
+	Body acceleration jerk frequency standard deviation in y-axis direction
+
+fBodyAccJerk_std__Z		number normalized and bounded within [-1,1]
+	Body acceleration jerk frequency standard deviation in z-axis direction
+
+fBodyAccJerk_meanFreq__X	number normalized and bounded within [-1,1]
+	Body jerk acceleration mean frequency in x-axis direction
+
+fBodyAccJerk_meanFreq__Y	number normalized and bounded within [-1,1]
+	Body jerk acceleration mean frequency in y-axis direction
+
+fBodyAccJerk_meanFreq__Z	number normalized and bounded within [-1,1]
+	Body jerk acceleration mean frequency in z-axis direction
+
+fBodyGyro_mean__X		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body angular velocity mean in x-axis direction
+
+fBodyGyro_mean__Y		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body angular velocity mean in y-axis direction
+
+fBodyGyro_mean__Z		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body angular velocity mean in z-axis direction
+
+fBodyGyro_std__X		number normalized and bounded within [-1,1
+	Frequency (after FFT) body angular velocity standard deviation in x-axis direction]
+
+fBodyGyro_std__Y		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body angular velocity standard deviation in y-axis direction]
+
+fBodyGyro_std__Z		number normalized and bounded within [-1,1]
+	Frequency (after FFT) body angular velocity standard deviation in z-axis direction]
+
+fBodyGyro_meanFreq__X		number normalized and bounded within [-1,1]
+	Body angular velocity mean frequency in x-axis direction
+
+fBodyGyro_meanFreq__Y		number normalized and bounded within [-1,1]
+	Body angular velocity mean frequency in y-axis direction
+
+fBodyGyro_meanFreq__Z		number normalized and bounded within [-1,1]
+	Body angular velocity mean frequency in z-axis direction
+
+fBodyAccMag_mean_		number normalized and bounded within [-1,1]
+	Body acceleration magnitude mean using the Euclidian norm
+
+fBodyAccMag_std_		number normalized and bounded within [-1,1]
+	Body acceleration magnitude standard deviation using the Euclidian norm
+
+fBodyAccMag_meanFreq_		number normalized and bounded within [-1,1]
+	Body acceleration magnitude mean frequency using the Euclidian norm
+
+fBodyBodyAccJerkMag_mean_	number normalized and bounded within [-1,1]
+	Body jerk square acceleration magnitude mean using the Euclidian norm
+
+fBodyBodyAccJerkMag_std_	number normalized and bounded within [-1,1]
+	Body jerk square acceleration magnitude standard deviation using the Euclidian norm
+
+fBodyBodyAccJerkMag_meanFreq_	number normalized and bounded within [-1,1]
+	Body jerk square acceleration magnitude mean frequency using the Euclidian norm
+
+fBodyBodyGyroMag_mean_		number normalized and bounded within [-1,1]
+	Body square angular velocity magnitude mean using the Euclidian norm
+
+fBodyBodyGyroMag_std_		number normalized and bounded within [-1,1]
+	Body square angular velocity magnitude standard deviation using the Euclidian norm
+
+fBodyBodyGyroMag_meanFreq_	number normalized and bounded within [-1,1]
+	Body square angular velocity magnitude mean frequency using the Euclidian norm
+
+fBodyBodyGyroJerkMag_mean_	number normalized and bounded within [-1,1]
+	Body square angular velocity magnitude mean using the Euclidian norm
+
+fBodyBodyGyroJerkMag_std_	number normalized and bounded within [-1,1]
+	Body square angular velocity magnitude standard deviation using the Euclidian norm
+
+fBodyBodyGyroJerkMag_meanFreq_	number normalized and bounded within [-1,1]
+	Body square angular velocity magnitude mean frequency using the Euclidian norm
+
+Activity			character
+	Activity: 
+		1 WALKING
+	2 WALKING_UPSTAIRS
+
+		3 WALKING_DOWNSTAIRS
+
+		4 SITTING
+
+		5 STANDING
+
+		6 LAYING
+
+
+Subject_ID			integer[1,30]
+	identifier of subject carrying the smartphone
+
 
