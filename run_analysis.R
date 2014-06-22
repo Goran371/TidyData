@@ -10,8 +10,6 @@
 
 
 run_analysis <- function(){
-        library(plyr)
-        library(doBy)
         
         ## Part 1. a)Download the zip file and expand it on the local disk
         
@@ -72,11 +70,9 @@ run_analysis <- function(){
         ## k and l are used to find the start and end row (l-1) for each subj/act combination
         ## sumVec <- rep(0,81)
         for(e in 1:30) {
-                print(e)
                 subj <- SF[j,"Subject_ID"]
                 for (a in 1:6){
                         act <- SF[j,"Activity"]
-                        print(act)
                         k <- j
                         while((j<=numberRows)&(SF[j,"Activity"]==act) &(SF[j,"Subject_ID"]==subj)){
                                 j <- j+1
@@ -97,7 +93,7 @@ run_analysis <- function(){
         ## write data frame to the disc
         write.table(TF,file="tidy_data_means.txt", row.names=FALSE)
         
-        a=0
+
         
         
         
